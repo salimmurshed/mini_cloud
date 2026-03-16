@@ -1,0 +1,125 @@
+{
+  "info": {
+    "_postman_id": "530534ce-b9dd-4c88-a353-b553c5903746",
+    "name": "mini_cloud_collaction",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "27247782",
+    "_collection_link": "https://go.postman.co/collection/27247782-530534ce-b9dd-4c88-a353-b553c5903746?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "add_file",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "formdata",
+          "formdata": [
+            {
+              "key": "file",
+              "type": "file",
+              "uuid": "5b164908-71f2-49cd-ae8f-50892818b56a",
+              "src": "/Users/salimmurshed/Downloads/_1-removebg-preview.png"
+            },
+            {
+              "key": "file_size",
+              "value": "",
+              "type": "text",
+              "uuid": "4be8adcb-540b-4d6c-abf1-99554cc754b0",
+              "disabled": true
+            },
+            {
+              "key": "file_hash",
+              "value": "",
+              "type": "text",
+              "uuid": "e86075f7-dd6d-42d7-80d4-5ea14a52d30b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "http://localhost:8000/api/users/1/files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "users",
+            "1",
+            "files"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/users/1/files/2",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "users",
+            "1",
+            "files",
+            "2"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "summary",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/users/1/storage-summary",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "users",
+            "1",
+            "storage-summary"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "get_list",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8000/api/users/1/files",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8000",
+          "path": [
+            "api",
+            "users",
+            "1",
+            "files"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}

@@ -3,6 +3,8 @@ Have to migrate the migrations **php artisan  migrate**
 Then **php artisan serve**
 
 
+[Postman Collection](mini_cloud_collaction.postman_collection.json)
+
 
 **Upload File**
 
