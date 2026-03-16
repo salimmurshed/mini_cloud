@@ -2,8 +2,9 @@ Have to migrate the migrations **php artisan  migrate**
 
 Then **php artisan serve**
 
+<a href="mini_cloud_collaction.postman_collection.json" download="mini_cloud_collaction.postman_collection.json">Postman Collection</a>
 
-[Postman Collection](mini_cloud_collaction.postman_collection.json)
+
 
 
 **Upload File**
